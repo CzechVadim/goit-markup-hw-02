@@ -1,0 +1,31 @@
+/* ОБЩИЕ СТИЛИ ДЛЯ ВСЕГО ДОКУМЕНТА */
+
+/* границы сделаны для определения границ структурных элементов документа */
+header,
+section,
+footer {
+  border: 1px solid;
+}
+
+/* применяем основное семейство шрифтов для всего документа и ссылок */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.header {
+    background-color: var(--bg-white-color);
+}
+
+
+
+
+
+
+
+
+/*    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Roboto', sans-serif;*/
