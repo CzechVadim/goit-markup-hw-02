@@ -81,20 +81,14 @@ body {
   color: var(--white-text);
 }
 
-.hero a {
+.button-primary {
+  background-color: var(--bg-blue-color);
+  color: var(--white-text);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  color: var(--white-text);
-}
-
-.hero-btn {
-  background-color: var(--bg-blue-color);
 }
 
 
@@ -185,7 +179,7 @@ body {
 /* FOOTER */
 
 .footer {
-  background-color: var(--bg-blue-color);
+  background-color: var(--bg-blue-color-hero);
 }
 
 .footer-logo {

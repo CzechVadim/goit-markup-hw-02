@@ -117,7 +117,7 @@ body {
 /* FOOTER */
 
 .footer {
-  background-color: var(--bg-blue-color);
+  background-color: var(--bg-blue-color-hero);
 }
 
 .footer-logo {
