@@ -64,118 +64,50 @@ body {
 
 
 
-/* HERO */
+/* JOB button*/
 
-.hero {
-  background-color: var(--bg-blue-color-hero);
-}
-
-.hero-title {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white-text);
-}
-
-.hero a {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--white-text);
-}
-
-.hero-btn {
-  background-color: var(--bg-blue-color);
-}
-
-
-
-/* ADVANTAGES */
-
-.advantages {
-  background-color: var(--bg-white-color);
-}
-
-.subtitle {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--black-text);
-}
-
-.list {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--gray-text);
-}
-
-
-
-/* SERVICES */
-
-.services {
-  background-color: var(--bg-white-color);;
-}
-
-.services-title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--black-text);
-}
-
-
-
-/* TEAM */
-
-.team {
+.job-btn {
+  border-radius: 4px;
   background-color: var(--bg-light-gray-color);
-}
-
-.team-title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--black-text);
-}
-
-.master-name {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 26px;
+  text-align: center;
   letter-spacing: 0.03em;
+  color: var(--black-tex);
+}
+
+.job-btn:hover,
+.job-btn:focus,
+.job-btn:active {
+  border-radius: 4px;
+  background-color: var(--bg-blue-color);
+  color: var(--white-text);
+}
+
+
+
+/* JOB */
+
+.job {
+  background-color: var(--bg-white-color);
+}
+
+.job-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
   color: var(--black-text);
 }
 
-.master-position {
-  font-family: Roboto;
+.job-type {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--gray-text);
 }
